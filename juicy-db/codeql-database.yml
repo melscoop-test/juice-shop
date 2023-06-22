@@ -1,0 +1,11 @@
+---
+sourceLocationPrefix: /Users/melscoop/Documents/GitHub/GH_Lab/codeql/juice-shop
+baselineLinesOfCode: 56122
+unicodeNewlines: true
+columnKind: utf16
+primaryLanguage: javascript
+creationMetadata:
+  sha: 185a309a66c948f1092ef544b0c703d3c1892339
+  cliVersion: 2.13.4
+  creationTime: 2023-06-22T21:17:03.806053Z
+finalised: true
