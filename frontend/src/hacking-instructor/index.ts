@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.
+ * Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.
  * SPDX-License-Identifier: MIT
  */
 
@@ -17,6 +17,9 @@ import { BonusPayloadInstruction } from './challenges/bonusPayload'
 import { LoginBenderInstruction } from './challenges/loginBender'
 import { TutorialUnavailableInstruction } from './tutorialUnavailable'
 import { CodingChallengesInstruction } from './challenges/codingChallenges'
+import { AdminSectionInstruction } from './challenges/adminSection'
+import { ReflectedXssInstruction } from './challenges/reflectedXss'
+import { ExposedCredentialsInstruction } from './challenges/exposedCredentials'
 
 const challengeInstructions: ChallengeInstruction[] = [
   ScoreBoardInstruction,
@@ -29,7 +32,10 @@ const challengeInstructions: ChallengeInstruction[] = [
   PasswordStrengthInstruction,
   BonusPayloadInstruction,
   LoginBenderInstruction,
-  CodingChallengesInstruction
+  CodingChallengesInstruction,
+  AdminSectionInstruction,
+  ReflectedXssInstruction,
+  ExposedCredentialsInstruction
 ]
 
 export interface ChallengeInstruction {
