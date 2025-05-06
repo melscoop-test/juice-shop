@@ -219,7 +219,7 @@
     "@types/multer": "^1.4.12",
     "@types/node": "^17.0.45",
     "@types/on-finished": "^2.3.4",
-    "@types/pdfkit": "^0.10.6",
+    "@types/pdfkit": "^0.13.9",
     "@types/portscanner": "^2.1.4",
     "@types/pug": "^2.0.10",
     "@types/request": "^2.48.12",
