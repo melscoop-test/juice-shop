@@ -237,7 +237,7 @@
     "@typescript-eslint/eslint-plugin": "6.18.1",
     "@typescript-eslint/parser": "6.18.1",
     "chai": "^4.5.0",
-    "chai-as-promised": "^7.1.2",
+    "chai-as-promised": "^8.0.2",
     "cross-spawn": "^7.0.3",
     "cypress": "^13.17.0",
     "eslint": "^8.57.1",
